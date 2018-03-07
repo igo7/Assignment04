@@ -10,7 +10,7 @@ function login() {
     var username = document.getElementById('username');
     var password = document.getElementById('password');
     if(username.value == 'immanuelgo' && password.value  == 'password123') {
-       window.location.href = './index.html';
+       window.location.href = './Home.html';
        counter = 0;
     } else {
         counter ++;
